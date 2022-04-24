@@ -1,3 +1,14 @@
 # Memory-app3
 
-any thing xzv xzv xzvzxvzxvzxvzxvzxvzxvzxvzxv
+#### Run The App Locally
+
+```sh
+npm run install-dependencies
+```
+
+- rename .env.temp to .env
+- setup value for URL
+
+```sh
+npm start
+```
