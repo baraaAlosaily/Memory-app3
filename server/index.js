@@ -26,6 +26,12 @@ app.use('/',(req,res)=>{
 //https://www.mongodb.com/cloud/atlas
 // const CONNECTION_URL='mongodb+srv://mastery:test123@cluster0.erxur.mongodb.net/mastery?retryWrites=true&w=majority'
 
+
+//https://www.mongodb.com/cloud/atlas
+// const CONNECTION_URL='mongodb+srv://mastery:test123@cluster0.erxur.mongodb.net/mastery?retryWrites=true&w=majority'
+
+console.log("test")
+
 const PORT=process.env.PORT||3003;
 
 mongoose.connect (process.env.CONNECTION_URL,{useNewUrlParser:true,useUnifiedTopology: true})
