@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API =axios.create({baseURL:process.env.REACT_APP_API_KEY})
+const API =axios.create({baseURL:"http://ec2-54-198-195-44.compute-1.amazonaws.com:3004/"})
 
 // const url ='http://localhost:3003/posts';
 
