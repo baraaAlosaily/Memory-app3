@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API =axios.create({baseURL:"http://localhost:3004/"})
+const API =axios.create({baseURL:"https://memory-app-2.azurewebsites.net/"})
 
 // const url ='http://localhost:3003/posts';
 
